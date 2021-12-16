@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2ebe9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(63, 63, 63);
+  max-height: 40px;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  list-style-type: none;
+  margin-right: 5px;
+  color: white;
+}
+
+#logo-top {
+  max-width: 40px;
+}
